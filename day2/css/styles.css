@@ -1,0 +1,158 @@
+@import "reset.css";
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 0 60px 0;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 800;
+}
+
+.title-img {
+  font-size: 40px;
+  margin-left: 18px;
+  color: grey;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container__column__top {
+  justify-content: space-evenly;
+}
+
+.column__detail p {
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+p {
+  line-height: 24px;
+}
+
+.column__detail {
+  margin: 30px 0 50px 0;
+}
+
+.top__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.about-us {
+  border-top: 4px solid rgb(0, 94, 255);
+  padding-top: 30px;
+}
+
+.column__images {
+  display: flex;
+  justify-content: center;
+}
+
+.column_image {
+  width: 33%;
+  margin-right: 20px;
+}
+.column_image img {
+  width: 280px;
+  height: 240px;
+}
+
+.column_image:first-child {
+  justify-content: flex-start;
+}
+
+.column_image:nth-child(2) {
+  justify-content: center;
+}
+
+.column_image:last-child {
+  justify-content: flex-end;
+}
+
+.main-container__column__bottom {
+  margin: 40px 100px;
+}
+
+.bottom__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom__column__title {
+  justify-content: flex-start;
+  margin-bottom: 13px;
+  margin-top: 24px;
+}
+
+.bottom__column__title span {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+a {
+  margin-top: 16px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2eee1;
+  padding: 36px 60px;
+  justify-content: space-evenly;
+}
+
+.footer-top {
+  display: flex;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-left {
+  width: 1200px;
+}
+
+.footer-left__column {
+  font-weight: 700;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.footer-left__column div {
+  margin-right: 40px;
+  width: 100px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-bottom__left span:not(:last-child) {
+  border-right: 1px solid black;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+strong {
+  font-weight: 600;
+  font-size: 16px;
+}
