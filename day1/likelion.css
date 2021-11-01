@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap");
+
+* {
+  font-family: "Montserrat";
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  min-width: fit-content;
+}
+
+.main-container {
+  width: 700px;
+  padding: 30px;
+  margin: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solod #ebebeb;
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 14px;
+}
+
+h3 {
+  color: grey;
+  font-size: 18px;
+}
+
+.header {
+  text-align: right;
+}
+
+.main__column {
+  padding: 10px 0;
+}
+
+h2 {
+  font-weight: lighter;
+  color: grey;
+  font-size: 25px;
+  border-bottom: 0.2px solid rgba(0, 0, 0, 0.2);
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.about-me__text {
+  font-size: smaller;
+}
+
+.experience__column {
+  padding: 15px 0;
+}
+
+.float-wrap {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  height: 30px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.desc-text {
+  margin-top: 14px;
+  font-size: small;
+}
+
+.desc-subtext {
+  color: #282828;
+  padding-left: 20px;
+  font-size: small;
+  margin-top: 10px;
+}
+
+.icons-sns {
+  margin: 14px;
+  text-align: center;
+}
+
+.image-sns {
+  margin: 3px;
+  width: 20px;
+  height: 20px;
+}
+
+footer {
+  text-align: center;
+  background-color: #1e1e1e;
+  color: whitesmoke;
+  font-size: 12px;
+  padding: 30px;
+}
