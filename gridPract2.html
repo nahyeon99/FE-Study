@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Practice</title>
+    <style>
+        ul {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(5,1fr);
+            list-style: none;
+            gap: 10px;
+        }
+
+        li img{
+            width: 100%;
+            height: 100%;
+        }
+
+        .one {
+            grid-column: 1 / 4;
+            grid-row: 1 / 3;
+        }
+
+        .two {
+            grid-column: 4 / 6;
+            grid-row: 1 / 4;
+        }
+
+        .three {
+            grid-column: 1 / 3;
+            grid-row: 3 / 4;
+        }
+
+        .four {
+            grid-column: 3 / 4;
+            grid-row: 3 / 4;
+        }
+
+        .fifth {
+            grid-column: 1 / 3;
+            grid-row: 4 / 6;
+        }
+
+        .sixth {
+            grid-column: 3 / 6;
+            grid-row: 4 / 6;
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="one">
+            <img src="img/1.jpg" alt="">
+        </li>
+        <li class="two">
+            <img src="img/2.jpg" alt="">
+        </li>
+        <li class="three">
+            <img src="img/3.jpg" alt="">
+        </li>
+        <li class="forth">
+            <img src="img/4.jpg" alt="">
+        </li>
+        <li class="fifth">
+            <img src="img/5.jpg" alt="">
+        </li>
+        <li class="sixth">
+            <img src="img/6.jpg" alt="">
+        </li>
+    </ul>
+</body>
+</html>
