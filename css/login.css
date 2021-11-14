@@ -1,0 +1,210 @@
+#login-container {
+  width: 520px;
+  height: 712px;
+  border-radius: 10px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+/***** START: login-header *****/
+.login-header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-header > h1 {
+  position: absolute;
+  width: 144px;
+  height: 20px;
+  top: 20px;
+  left: 188px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.login-header .iconClose {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 22px;
+  left: 480px;
+}
+
+.login-header .login-container__hr {
+  position: absolute;
+  width: 520px;
+  height: 1px;
+  top: 58px;
+  left: 0px;
+}
+/***** FINISH: login-header *****/
+
+/***** START: loginForm-container *****/
+
+.loginForm-container > h2 {
+  position: absolute;
+  width: 369px;
+  height: 24px;
+  left: 24px;
+  top: 85px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.loginForm-container .login-form input:first-child {
+  position: absolute;
+  width: 472px;
+  height: 50px;
+  top: 133px;
+  left: 24px;
+}
+
+.loginForm-container .login-form input:nth-child(2) {
+  position: absolute;
+  width: 472px;
+  height: 50px;
+  top: 193px;
+  left: 24px;
+}
+
+.login-form .login-checkpoint {
+  position: absolute;
+  width: 141px;
+  height: 22px;
+  left: 28px;
+  top: 259px;
+}
+
+.login-form .btnLogin {
+  position: absolute;
+  width: 472px;
+  height: 50px;
+  left: 24px;
+  top: 301px;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.login-form .login-form__link {
+  position: absolute;
+  width: 205px;
+  height: 18px;
+  top: 371px;
+  left: 158px;
+  color: #767676;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+#link-join {
+  width: 52px;
+}
+
+.link-sepLine {
+  width: 4px;
+}
+
+#link-find {
+  width: 125px;
+}
+
+/***** FINISH: loginForm-container *****/
+
+/***** START: OR-line *****/
+
+.OR-line {
+  position: absolute;
+  width: 472px;
+  height: 18px;
+  top: 419px;
+  left: 24px;
+  color: #767676;
+  display: flex;
+  align-items: center;
+}
+
+.OR-line > span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+/***** FINISH: <HR> OR *****/
+
+/***** START: nav login-authentication *****/
+
+.login-aut {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-aut .btn-aut {
+  position: absolute;
+  width: 472px;
+  height: 50px;
+  left: 24px;
+  background-color: #ffffff;
+  border: 1px solid #767676;
+  border-radius: 5px;
+  color: #767676;
+  display: flex;
+  align-items: center;
+}
+
+.btn-aut > span {
+  height: 20px;
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.btn-aut__google {
+  position: absolute;
+  top: 457px;
+}
+
+.btn-aut__google span {
+  width: 140px;
+  left: 154px;
+}
+
+.btn-aut__facebook {
+  position: absolute;
+  top: 517px;
+}
+
+.btn-aut__facebook span {
+  width: 170px;
+  left: 139px;
+}
+
+.btn-aut__naver {
+  position: absolute;
+  top: 577px;
+}
+
+.btn-aut__naver span {
+  width: 155px;
+  left: 146px;
+}
+
+.btn-aut__kakao {
+  position: absolute;
+  top: 637px;
+}
+
+.btn-aut__kakao span {
+  width: 170px;
+  left: 139px;
+}
+
+/***** FINISH: nav login-authentication *****/
