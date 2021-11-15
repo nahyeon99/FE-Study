@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>font-1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+<!-- <link rel="stylesheet" href="css/styles.css"> -->
+<!-- <link rel="stylesheet" href="css/reset.css"> -->
+<style>
+    /* 용량을 줄이려면 set로 가져와서 묶을 수 있음 */
+    
+    @font-face {
+    font-family: 'MaruBuri-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    @font-face {
+    font-family: 'Gootneaeum';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_05@1.0/Gootneaeum.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    /* 변수사용명으로 사용시 간편하게 */
+    :root {
+        --main-font: MaruBuri;
+        --second-font: Gootneaeum;
+    }
+    p {
+        /* font-family: var(--main-font); */
+        font-family: var(--second-font);
+        font-family: 'Nanum Pen Script', cursive;
+    }
+</style>
+</head>
+<body>
+    <!-- 1. 웹폰트적용 2. 로컬폰트 사용 -->
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat repellendus quia voluptas quisquam soluta. Eos eaque asperiores beatae illum eligendi fugiat, doloremque, earum quas inventore totam eveniet deleniti esse id.</p>
+</body>
+</html>
