@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="./reset.css">
+<style>
+    .sr-only {
+        display: none;
+    }
+    .wrap-container {
+        margin: 200px 500px;
+    }
+    header, section, aside, footer {
+        border: 3px solid red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: red;
+        font-size: 24px;
+    }
+    .main-container {
+        display: flex;
+        height: 250px;
+    }
+
+    .main-container section {
+        flex-grow: 3;
+    }   
+    
+    .main-container aside {
+        flex-grow: 1;
+    }
+</style>
+</head>
+<body>
+    <!-- holy grail layout 구현 -->
+    <div class="wrap-container">
+        <header>
+            <h1 class="sr-only">---header part---</h1>
+            header
+        </header>
+        <div class="main-container">
+            <section>
+                <h2 class="sr-only">---section part---</h2>
+                <article>
+                    section > article
+                </article>
+            </section>
+            <aside>
+                aside
+            </aside>
+        </div>
+        <footer>
+            footer
+        </footer>
+    </div>
+</body>
+</html>
