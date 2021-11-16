@@ -1,57 +1,24 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Login Page</title>
-<link rel="stylesheet" href="css/styles.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="login_style/style_module.css">
+    <link rel="stylesheet" href="login_style/style.css">
 </head>
+
 <body>
-    <div id="login-container" class="wrapper">
-        <header class="login-header">
-            <h1>로그인 또는 회원가입</h1>
-            <i class="fas fa-times iconClose"></i>
-            <hr class="login-container__hr">
-        </header>
-        <section class="loginForm-container">
-            <h2>위니브에서 여루븐의 궁금증을 해결하세요!:)</h2>
-            <form class="login-form">
-                <input type="text" placeholder="아이디" name="id" required>
-                <input type="password" placeholder="비밀번호" name="password" required>
-                <img class="login-checkpoint" src="./img/check-point.jpg" alt="check-point">
-                <button class="btnLogin">로그인</button>
-                <div class="login-form__link">
-                    <a href="#" id="link-join">회원가입</a>
-                    <span class="link-sepLine">|</span>
-                    <a href="#" id="link-find">아이디/비밀번호 찾기</a>
-                </div>
-            </form>
-        </section>
-        <div class="OR-line">
-            <hr style='display:inline-block; width:210px;' />
-            <span>또는</span>
-            <hr style='display:inline-block; width:210px;' />
-        </div>
-        <nav class="login-aut">
-            <button class="btn-aut btn-aut__google">
-                <img src="./img/googleLogo.jpg" alt="google logo">
-                <span>구글 계정으로 로그인</span>
-            </button>
-            <button class="btn-aut btn-aut__facebook">
-                <img src="./img/facebookLogo.jpg" alt="facebook logo">
-                <span>페이스북 계정으로 로그인</span>
-            </button>
-            <button class="btn-aut btn-aut__naver">
-                <img src="./img/naverLogo.jpg" alt="naver logo">
-                <span>네이버 계정으로 로그인</span>
-            </button>
-            <button class="btn-aut btn-aut__kakao">
-                <img src="./img/kakaoLogo.jpg" alt="kakaotalk logo">
-                <span>카카오톡 계정으로 로그인</span>
-            </button>
-        </nav>
-    </div>
+    <main id="appLogin">
+        <article class="cont-login">
+            <h1 class="tit-weniv"><img src="images-login/logo.png" alt="WENIV"></h1>
+            <p class="txt-login">위니브를 더 즐겁고 편리하게 이용하세요.</p>
+            <button type="button" class="btn-login">로그인</button>
+        </article>
+    </main>
 </body>
+
 </html>
