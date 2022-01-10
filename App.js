@@ -1,24 +1,22 @@
-import Home from "./Home";
-
 function App() {
-  return (
-    <div className="App">
-      <Home />
-    </div>
-  );
+  return <Hello name="licat" />;
+}
+
+function Name(props) {
+  return <h1>{props.name}</h1>;
+}
+
+function NoName() {
+  return <h1>name이 없습니다.</h1>;
 }
 
 function Hello(props) {
   const name = props.name;
-  const num = [1, 2, 3, 4, 5];
-
-  const numComArr = num.map((i) => (
-    <h1 key={i.toString()}>
-      안녕, {name}, {i}호
-    </h1>
-  ));
-
-  return <div>{numComArr}</div>;
+  if (name) {
+    return <Name name={name} />;
+  } else {
+    return <NoName />;
+  }
 }
 
 export default App;
