@@ -1,22 +1,34 @@
-function App() {
-  return <Hello name="licat" />;
-}
+import React from "react";
+import styled from "styled-components";
 
-function Name(props) {
-  return <h1>{props.name}</h1>;
-}
+const ContentDiv = styled.div`
+  margin: 40px;
+`;
 
-function NoName() {
-  return <h1>name이 없습니다.</h1>;
-}
+const ContentH2 = styled.h2`
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  color: red;
+`;
 
-function Hello(props) {
-  const name = props.name;
-  if (name) {
-    return <Name name={name} />;
-  } else {
-    return <NoName />;
-  }
+const App = () => {
+  return (
+    <ContentDiv>
+      <ContentH2>Q&A</ContentH2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos excepturi
+        corrupti quo blanditiis! Adipisci amet corporis ipsum odio minima
+        aliquid quisquam! Dignissimos natus laborum qui veritatis quaerat eaque!
+        Nemo, ullam.
+      </p>
+      <Hello />
+    </ContentDiv>
+  );
+};
+
+function Hello() {
+  return <h2>hello world</h2>;
 }
 
 export default App;
